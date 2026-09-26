@@ -1,0 +1,19 @@
+{
+  "rules": [
+    {"includeClasses": "**"},
+
+    {"excludeClasses": "com.**"},
+    {"excludeClasses": "java.**"},
+    {"excludeClasses": "javax.**"},
+    {"excludeClasses": "kotlinx.**"},
+    {"excludeClasses": "org.**"},
+    {"excludeClasses": "sun.**"},
+
+    {"includeClasses": "java.util.Properties"},
+    {"includeClasses": "org.apache.shardingsphere.elasticjob.**"},
+
+    {"excludeClasses": "org.apache.shardingsphere.elasticjob.test.natived.**"}
+  ],
+  "regexRules": [
+  ]
+}
